@@ -1,13 +1,9 @@
 sdkKey: "sdk_key"
-environment: 
+environments: 
   - "env1"
-  - "env2"
-  - "env3"
-company: 
-  - "comp1"
-  - "comp2"
-  - "comp3"
-flag: 
-  - "flag1"
-  - "flag2"
-  - "flag3"
+flags: 
+  - key: "flag1"
+    desc: "feature flag 1"
+  - key: "flag2"
+    desc: "feature flag 2"
+  - key: "flag3"

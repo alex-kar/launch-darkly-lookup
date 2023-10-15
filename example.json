@@ -1,0 +1,34 @@
+{
+	"segments": {},
+	"flags": {
+		"flag1": {
+			"key": "flag1",
+			"on": true,
+			"targets": [
+				{
+					"contextKind": "user",
+					"variation": 0,
+					"values": [
+						"111",
+						"222"
+					]
+				},
+				{
+					"contextKind": "user",
+					"variation": 1,
+					"values": [
+						"333"
+					]
+				}
+			],
+			"fallthrough": {
+				"variation": 1
+			},
+			"offVariation": 1,
+			"variations": [
+				true,
+				false
+			]
+		}
+	}
+}
